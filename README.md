@@ -1,6 +1,6 @@
 # CollageUI
 
-A Package which can be used to crate collage of images and videos. Medias can be passed as parameter. By default let the user to select medias from Photo library.
+A Package which can be used to create collage of images and videos. Medias can be passed as parameter. By default let the user to select medias from Photo library.
 
 ## Usage
 
