@@ -3,29 +3,6 @@
 A description of this package.
 
 ## Usage
-import SwiftUI
-import CollageUI
 
+<img width="939" alt="Screen Shot 2024-03-25 at 5 30 21 PM" src="https://github.com/prakashojha/CollageUI/assets/8487111/f2c9d086-6c14-469e-987f-78c7b838e03e">
 
-struct ContentView: View {
-   // Both coordinators are required internally by other views to communicate.
-    @StateObject var appCoordinator: AppCoordinator = AppCoordinator()
-    @EnvironmentObject private var viewModel: CollageUIExampleViewModel
-    
-    var body: some View {
-        GeometryReader { _ in
-            ScrollView {
-            /* YOU APP GOES INSIDE HERE */
-            // By default asks the used to select media from library
-             CollageUI(mediaModels: [ /*array medias(images or videos)*/] )
-             CollageUI()
-            }
-            // let the render media in full screen when clicked
-            if appCoordinator.isMediaFullScreenRequired {
-                appCoordinator.renderFullScreen()
-            }
-        }
-        // need by other views.
-        .environmentObject(appCoordinator)
-    }
-}
