@@ -4,7 +4,8 @@ A Package which can be used to create collage of images and videos. Medias can b
 
 ## Usage
 
-<img width="974" alt="Screen Shot 2024-03-25 at 5 39 15 PM" src="https://github.com/prakashojha/CollageUI/assets/8487111/fb2edfba-ab5a-40d8-a748-65cb08e50d67">
+<img width="926" alt="Screen Shot 2024-03-25 at 5 40 36 PM" src="https://github.com/prakashojha/CollageUI/assets/8487111/1af88116-81d1-4fde-a475-e64d5a197877">
+
 
 
 
